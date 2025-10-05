@@ -17,12 +17,12 @@ Features
 13.	Interactive filters in Streamlit sidebar.
 14.	Shows market cap ranges for clarity.
 15.	Combines fundamental score, sentiment, and predicted prices into a clear action recommendation.
-Tech Stack
+Tech Stack:
 •	Python: yfinance, pandas, numpy, scikit-learn, vaderSentiment
 •	Streamlit: Web app interface
 •	ML Models: Linear Regression for price prediction
 •	Deployment: Heroku / Streamlit Cloud
-How It Works
+How It Works:
 •	Top 10 Watchlist is generated based on sector and market cap filters.
 •	Recommendation Score is calculated from normalized financial metrics.
 •	Price Predictions estimate future performance using linear regression on historical prices.
